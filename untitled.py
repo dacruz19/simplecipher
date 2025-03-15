@@ -31,7 +31,7 @@ if choice == "e" or choice == "encode":
             x = orin_symbols.index(letter)
             new += x_symbols[x]
         else:
-            new += letter  # Leave unknown characters unchanged
+            new += letter
     print("Encoded Text:", new)
 
 elif choice == "d" or choice == "decode":
@@ -53,7 +53,7 @@ elif choice == "d" or choice == "decode":
             x = x_symbols.index(letter)
             new += orin_symbols[x]
         else:
-            new += letter  # Leave unknown characters unchanged
+            new += letter
     print("Decoded Text:", new)
 
 else:
